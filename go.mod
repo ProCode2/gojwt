@@ -2,7 +2,10 @@ module github.com/procode2/etir
 
 go 1.20
 
-require github.com/gofiber/fiber/v2 v2.47.0
+require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/gofiber/fiber/v2 v2.47.0
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
